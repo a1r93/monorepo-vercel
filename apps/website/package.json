@@ -13,27 +13,26 @@
     "analyze": "vite-bundle-visualizer -o bundle_stats.html"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "catalog:",
+    "react-dom": "catalog:"
   },
   "devDependencies": {
-    "@eslint/js": "^9.27.0",
+    "@eslint/js": "catalog:",
     "@a1r93/tsconfig": "workspace:*",
     "@types/node": "catalog:",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
     "@vitejs/plugin-react-swc": "catalog:",
-    "eslint": "^9.25.0",
-    "eslint-plugin-perfectionist": "^4.11.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.1.0",
+    "eslint": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "globals": "catalog:",
     "husky": "catalog:",
     "prettier": "catalog:",
-    "typescript": "~5.8.3",
-    "typescript-eslint": "^8.32.1",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:",
     "typescript-plugin-css-modules": "catalog:",
-    "vite": "^6.3.5",
+    "vite": "catalog:",
     "vite-bundle-visualizer": "catalog:",
     "vite-tsconfig-paths": "catalog:"
   }

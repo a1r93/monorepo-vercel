@@ -11,14 +11,14 @@
   },
   "dependencies": {
     "@fvilers/cls": "catalog:",
-    "react": "^19.0.0",
+    "react": "catalog:",
     "react-aria-components": "catalog:"
   },
   "devDependencies": {
     "@a1r93/tsconfig": "workspace:*",
-    "@types/react": "^19.1.2",
-    "typescript": "~5.8.3",
-    "vite": "^6.3.5",
+    "@types/react": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
     "vite-tsconfig-paths": "catalog:"
   }
 }
