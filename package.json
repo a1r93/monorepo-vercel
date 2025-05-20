@@ -11,6 +11,8 @@
   "scripts": {
     "dev": "pnpm --filter website dev",
     "dev:storybook": "pnpm --filter storybook dev",
+    "build": "pnpm --filter website build",
+    "build:storybook": "pnpm --filter storybook build",
     "typecheck": "pnpm -r run typecheck"
   },
   "keywords": [],
