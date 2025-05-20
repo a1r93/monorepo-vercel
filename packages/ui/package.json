@@ -10,15 +10,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@fvilers/cls": "^2.0.0",
+    "@fvilers/cls": "catalog:",
     "react": "^19.0.0",
-    "react-aria-components": "^1.9.0"
+    "react-aria-components": "catalog:"
   },
   "devDependencies": {
     "@a1r93/tsconfig": "workspace:*",
-    "@types/react": "^19.0.10",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0",
-    "vite-tsconfig-paths": "^5.1.4"
+    "@types/react": "^19.1.2",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-tsconfig-paths": "catalog:"
   }
 }
