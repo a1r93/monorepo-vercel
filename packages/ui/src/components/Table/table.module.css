@@ -1,0 +1,58 @@
+/* Base table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header section */
+.table-header {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Column headers */
+.table-column {
+  padding: 12px 16px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.table-column:last-child {
+  border-right: none;
+}
+
+/* Table body */
+.table-body {
+  background-color: #fff;
+}
+
+/* Rows */
+.table-row {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+
+  &[data-hovered="true"] {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Cells */
+.table-cell {
+  padding: 12px 16px;
+  border-right: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+
+.table-cell:last-child {
+  border-right: none;
+}
+
+/* Optional: Zebra striping for better readability */
+.table-body .table-row:nth-child(even) {
+  background-color: #fafafa;
+}

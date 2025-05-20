@@ -1,0 +1,39 @@
+/* Container for everything */
+.tabs {
+  max-width: fit-content;
+  margin: 2rem auto;
+}
+
+/* Tab List */
+.tab-list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Individual Tab */
+.tab {
+  background: none;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #555;
+  border-bottom: 2px solid transparent;
+  transition:
+    color 0.3s,
+    border-color 0.3s;
+}
+
+.tab[data-hovered="true"] {
+  color: #000;
+}
+
+.tab[data-selected="true"] {
+  color: #000;
+  font-weight: 600;
+  border-bottom-color: #007bff;
+}
+
+.tab-panel {
+  padding: 1rem 0;
+}

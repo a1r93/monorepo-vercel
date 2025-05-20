@@ -1,0 +1,36 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "categ",
+    "embind",
+    "ernd",
+    "fvilers",
+    "github",
+    "lightgray",
+    "rebeccapurple",
+    "transfero"
+  ],
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.husky/_": true,
+    "**/dist": true,
+    "**/bundle_stats.html": true,
+    "**/pnpm-lock.yaml": true
+  },
+  "files.insertFinalNewline": true
+}

@@ -1,0 +1,33 @@
+.react-aria-Checkbox[data-selected] > .checkbox,
+.react-aria-Checkbox[data-indeterminate] > .checkbox {
+  background: blue;
+  border-color: blue;
+}
+
+.react-aria-Checkbox[data-selected] > .checkbox > .checkmark,
+.react-aria-Checkbox[data-indeterminate] > .checkbox > .checkmark {
+  stroke-dashoffset: 44;
+}
+
+.checkbox {
+  width: 1.143rem;
+  height: 1.143rem;
+  border: 2px solid #000;
+  border-radius: 4px;
+  transition: all 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.checkmark {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: white;
+  stroke-width: 3px;
+  stroke-dasharray: 22px;
+  stroke-dashoffset: 66;
+  transition: all 200ms;
+}
