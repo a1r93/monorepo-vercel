@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "dev": "pnpm --filter website dev",
-    "dev:storybook": "pnpm --filter storybook storybook",
+    "dev:storybook": "pnpm --filter storybook dev",
     "typecheck": "pnpm -r run typecheck"
   },
   "keywords": [],

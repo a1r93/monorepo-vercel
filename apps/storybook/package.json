@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "storybook build",
+    "dev": "storybook dev -p 6006",
     "lint": "eslint .",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "typecheck": "tsc --noEmit",
-    "build-storybook": "storybook build"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@a1r93/ui": "workspace:*",
